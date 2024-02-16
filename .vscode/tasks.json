@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "CMake: configure",
+			"command": "configure",
+			"problemMatcher": [],
+			"detail": "CMake template configure task",
+			"group": "build"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: install",
+			"command": "install",
+			"problemMatcher": [],
+			"detail": "CMake template install task",
+			"group": "build"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "g++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: g++"
+		}
+	]
+}
