@@ -70,6 +70,7 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "stdlib.h": "c",
-    "practiceQSORT.C": "cpp"
+    "practiceQSORT.C": "cpp",
+    "cmath": "c"
   },
 }
