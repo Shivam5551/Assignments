@@ -27,6 +27,7 @@ int main()
     printf("How old are you? ");
     scanf("%d", &age);
     printf("Hello, %s!\nYou are %d yrs old.\n", name, age);
+free(name);
 
     //getch();
     return 0;
