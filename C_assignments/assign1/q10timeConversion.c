@@ -4,14 +4,14 @@
 
 int main()
 {
-    double sec, min;
+    long int sec, min,hrs;
     //clrscr();
     printf("Enter seconds : ");
-    scanf("%lf", &sec);
-    printf("Sec in Hours : %.2f\n", (sec/3600));
-    printf("Enter min : ");
-    scanf("%lf", &min);
-    printf("Min in Seconds : %.2f\n", (min*60));
+    scanf("%ld", &sec);
+hrs = sec / 3600;
+min = (sec % 3600) / 60;
+sec = (sec % 60);
+    printf("Time : %ld hrs %ld mins %ld sec",hrs,min,sec);
     //getch();
     return 0;
 }
