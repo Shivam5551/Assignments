@@ -3,37 +3,17 @@ DA=25% OF BS , HRA= 10% OF BS, PF=5% OF BS AND IT =10% OF BS.
 Calculate the Net Salary = ( BS+DA+HRA)-(IT+PF) */
 
 #include <stdio.h>
-#include <stdlib.h>
 //#include <conio.h>
 
-char *name()
-{
-    int length = 0;
-    char ch;
-    char *name = NULL;
 
-    while ((ch = getchar()) != '\n') 
-    {
-        name = (char *)realloc(name, (length + 1) * sizeof(char));
-        if (name == NULL) 
-        {
-            printf("Memory allocation failed. Exiting.\n");
-            return NULL;
-        }
-        name[length++] = ch;
-    }
-    name[length] = '\0';
-
-    return name;
-}
 
 int main()
 {
-    char *person_name = NULL;
+    char person_name[20];
     float BS, HRA, DA, IT, PF,Net_salary;
     //clrscr();
     printf("Enter name of person : ");
-    person_name = name();
+    scanf("%s", person_name);
     printf("Enter your Base Salary : ");
     scanf("%f", &BS);
 
