@@ -2,18 +2,16 @@
 #include <stdio.h>
 //#include <conio.h>
 
-#define TIMES 3
 
 int main()
 {
-    int num, i;
+    int num;
     //clrscr();
     printf("Enter Number : ");
     scanf("%d", &num);
-    for (i = 1; i <= TIMES; i++) 
-    {
-        printf("%d\n", num*i);
-    }
+    printf("%d\n", num*1);
+    printf("%d\n", num*2);
+    printf("%d\n", num*3);
     //getch();
     return 0;
 }
