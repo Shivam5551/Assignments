@@ -5,7 +5,7 @@
 int main()
 {
     //clrscr();
-    printf("Hello, World!\n");
+    printf("Hello\n");
 
     //getch();
     return 0;
