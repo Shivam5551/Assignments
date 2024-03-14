@@ -10,7 +10,7 @@ int main() {
     {
         if (i % 5 == 0) 
         {
-            printf("%d\t", i);
+            printf("%d ", i);
         }
     }
     printf("\n");
