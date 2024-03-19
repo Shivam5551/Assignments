@@ -71,6 +71,7 @@
     "ostream": "cpp",
     "stdlib.h": "c",
     "practiceQSORT.C": "cpp",
-    "cmath": "c"
+    "cmath": "c",
+    "cstdlib": "c"
   },
 }
