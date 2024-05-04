@@ -17,11 +17,13 @@ int main() {
         perror("Error");
         return 1;
     }
-    printf("File1 opened successfully in write mode\n");
+    printf("File2 opened successfully in write mode\n");
+    printf("Content of File1\n");
     while((c = fgetc(f1)) != EOF){
+        printf("%c", c);
         fprintf(f2, "%c", c);
     }
-    printf("Content of %s coppied successfully to %s\n", file1, file2);
+    printf("\nContent of %s coppied successfully to %s\n", file1, file2);
     fclose(f1);
     fclose(f2);
     f2 = fopen(file2, "r");

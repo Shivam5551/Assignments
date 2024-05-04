@@ -1,4 +1,11 @@
 Content of file1
-1
+This is line1
+This is line2
+This is line3
+This is line4
+This is line5
+This is line1
+This is line2
+
 Content of file2
 HELLO, THIS IS FILE1

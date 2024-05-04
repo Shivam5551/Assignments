@@ -24,7 +24,7 @@ int main() {
         perror("Error");
         return 1;
     }
-    printf("File3 opened successfully in write mode\n");
+    printf("File3 opened successfully in write mode\nContent Stored in file3\n");
     fprintf(f3, "Content of file1\n");
     while(((c = fgetc(f1)) != EOF)) {
         fprintf(f3, "%c", c);
