@@ -4,7 +4,6 @@ int main()
 int a[100],i,j,n,temp;
 printf("Enter the Number of element you want in the array: ");
 scanf("%d",&n);
-a[100]=a[n];
 for(i=0;i<n;i++)
 { printf("Enter Number %d: ",i+1);
  scanf("%d",&a[i]); }
