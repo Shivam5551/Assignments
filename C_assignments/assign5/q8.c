@@ -4,6 +4,10 @@ int main()
 int a[100],i,j,n,temp;
 printf("Enter the Number of element you want in the array: ");
 scanf("%d",&n);
+ if (n > 100) {
+   printf("Max limit is 100. Invalid input\n");
+   return 0;
+ }
 for(i=0;i<n;i++)
 { printf("Enter Number %d: ",i+1);
  scanf("%d",&a[i]); }
